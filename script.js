@@ -144,10 +144,11 @@ class Game {
   }
 
 }
-
+let player1Name = prompt("Enter the player 1 Name")
+let player2Name = prompt("Enter the player 2 Name")
 // ** Create 2 players using the player class **
-let player1 = new Player('King', 100, 10)
-let player2 = new Player('Kamara', 100, 10)
+let player1 = new Player(player1Name, 100, 10)
+let player2 = new Player(player2Name, 100, 10)
 
 
 // ** Save original Player Health in order to reset **
