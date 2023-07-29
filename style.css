@@ -2,11 +2,11 @@
 
 
 body {
-    background-image: url(/background.webp);
+    background-image: url(/arena-stage-ftimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(255, 255, 255, 0.5); /* Replace white (255, 255, 255) with the desired background color */
+    background-color: rgba(255, 255, 255, 0.014); /* Replace white (255, 255, 255) with the desired background color */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -16,20 +16,22 @@ body {
     font-family: 'VT323', monospace;
 }
 .title{
-    width: 75vh;
-    height: 15vh;
+    width: 100%;
+    height: 20vh;
     text-align: center;
     justify-content: center;
     font-size: 3rem;
     font-weight: 900;
     line-break: auto;
-    color: rgba(196, 17, 17, 0.747);
+    color: rgb(250, 83, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .menu {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #p1 {
